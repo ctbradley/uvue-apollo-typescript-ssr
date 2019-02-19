@@ -2,5 +2,5 @@ import { KoaAdapter } from "@uvue/server";
 
 export default {
   adapter: KoaAdapter,
-  plugins: []
+  plugins: ["@uvue/core/plugins/errorHandler"]
 };

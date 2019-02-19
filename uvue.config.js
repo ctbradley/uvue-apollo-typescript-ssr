@@ -1,3 +1,3 @@
 export default {
-  plugins: []
+  plugins: ["@/plugins/apollo", "@uvue/core/plugins/errorHandler"]
 };
